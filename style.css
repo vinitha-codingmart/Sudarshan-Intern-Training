@@ -1,3 +1,7 @@
+body{
+  font: 400 13px/1.231 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -474,4 +478,130 @@ dropdown {
     border-radius: 8px;
     font-weight: bold;
     font-style: normal;
+  }
+
+  .studentfare{
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1;
+    font-size: 13px;
+    color: white;
+    width: 100%;
+
+  }
+
+  .insideSF1{
+    display: flex;
+  }
+
+  .insideSF2{
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    color: white;
+  }
+
+  .belowImage{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+  }
+
+  .homeContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .homeContainer1{
+    top:850px;
+    border-radius: 5px;
+    margin-top: -220px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+
+  .offer{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+    line-height: 1;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1 px solid;
+  }
+
+  .offer1{
+    color: #2276e3;
+    padding-right: 30px;
+    font-size: 17px;
+    
+    border-width: 1px;
+    top: 12px;
+width: 1%;
+margin-right: 15px;
+  
+    border-bottom: 2px solid #2276e3;
+  
+  }
+
+  .offer2{
+    padding-right: 30px;
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  .insidehome{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+  }
+
+  .offersInStore{
+    color: #141823;
+    padding-bottom: 10px;
+    line-height: 1;
+    font-size: 24px;
+    text-align: center;
+
+  }
+
+  .viewAll{
+    color: #777778;
+    padding-bottom: 10px;
+    line-height: 1;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .horizontalScroll{
+    margin: 0px auto;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #slide{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    visibility: visible;
+  }
+  .sliderFrame{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
   }
