@@ -4,13 +4,33 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style1.css">
   <link rel="stylesheet" href="style2.css">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+  
 </head>
 <body>
-<div class="navbar">
-    <div class="subbar1">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+<div class="navbar 2 col-sm-12 col-xs-12" id="myTopnav">
+    <div class="subbar1 col-md-8 col-sm-8 col-xs-6">
 
         <a href="#" class="logo"><img src="goLogo.png" height="37" width="105"/></a>
         <ul>
@@ -19,13 +39,14 @@
             <li><a href="#"><i class="fas fa-bus icon" style="font-size:24px;"></i><span class="iconText">Bus</span></a></li>
             <li><a href="#"><i class="fas fa-train icon" style="font-size:24px;"></i><span class="iconText">IRCTC Trains</span></a></li>
             <li><a href="#"><i class="fas fa-car icon" style="font-size:24px;"></i><span class="iconText">Cabs</span></a></li>
+            
         </ul>
     </div> 
 
     
     
 
-    <div class="subbar2">
+    <div class="subbar2 col-md-4 col-sm-4 col-xs-6">
         <span class="right">
 
             <a class="support"><small class="supportsmall">
@@ -90,12 +111,13 @@
         </div>
 
     </div>
-    </div> 
+
+</div> 
 
 
     <div> 
-        <div class="backgroungimage">
-            <div class="backsub1">
+        <div class="backgroundimage">
+            <div class="backsub1" col-md-3 col-sm-5>
                 <div class="backsub2">
 
                 </div>
@@ -121,18 +143,18 @@
                                     <div class="insideSearch2">
 
                                         <div class="inside2">
-                                      <!--1-->      <div class="inside2S1">
+                                      <!--1-->      <div class="inside2S1  ">
                                                 <i class=" fas fa-map searchIcon1">
 
                                                 </i>
                                                 <input type="text" placeholder="From" class="inputSearch">
                                             </div>
 
-                                            <div class="inside2S2"></div>
+                                            <div class="inside2S2 "></div>
 
                                       <!--2-->    
 
-                                            <div class="inside2S3">
+                                            <div class="inside2S3 ">
                                                 <i class=" fas fa-map-marker-alt searchIcon1">
 
                                                 </i>
@@ -140,11 +162,11 @@
                                                 <input type="text" placeholder="Destination" class="inputSearch">
                                             </div>
 
-                                            <div class="inside2S2"></div>
+                                            <div class="inside2S2 "></div>
 
                                              <!--3-->  
                                            
-                                             <div class="inside2S4">
+                                             <div class="inside2S4  ">
                                                 <i class=" far fa-calendar-alt searchIcon1">
 
                                                 </i>
@@ -152,11 +174,11 @@
                                                 <input type="date">
                                             </div>
 
-                                            <div class="inside2S2"></div>
+                                            <div class="inside2S2  "></div>
 
                                             <!--4-->
 
-                                            <div class="inside2S4">
+                                            <div class="inside2S4  ">
                                                 <i class=" far fa-calendar-alt searchIcon1">
 
                                                 </i>
@@ -164,11 +186,11 @@
                                                 <input type="date">
                                             </div>
 
-                                            <div class="inside2S2"></div>
+                                            <div class="inside2S2  "></div>
 
                                              <!--5-->
 
-                                             <div class="inside2S5">
+                                             <div class="inside2S5  ">
                                                  <span class="searchSpan">
                                                 <i class=" far fa-user searchIcon1">
 
@@ -181,7 +203,7 @@
                                                 
                                             </div>
 
-                                            <div class="inside2S2"></div>
+                                            <div class="inside2S2 "></div>
 
 
 
@@ -432,6 +454,33 @@
 
         </div>
     </div>
-    
+    <!--
+    <div class="footer">
+        <div class="footer1">
+            <p class="footerPara">Follow Us</p>
+            <div class="insidePara">
+                <a href="#" class="footerLink">
+                    <i class="fas fa-hotel icon footerIcon"></i>
+                </a>
+                <a href="#" class="footerLink">
+                    <i class="fas fa-hotel icon footerIcon"></i>
+                </a>
+                <a href="#" class="footerLink">
+                    <i class="fas fa-hotel icon footerIcon"></i>
+                </a>
+
+
+            </div>
+        </div>
+        <div class="footer2">
+            <p class="footer2Para">Book Tickets faster. Download our mobile Apps</p>
+            <div class="insideFooter2">
+                <a href="#" class="link1"></a>
+                <a href="#" class="link2"></a>
+                <a href="#" class="link3"></a>
+            </div>
+        </div>
+    </div>
+    -->
 </body>
 </html>

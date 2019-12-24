@@ -1,3 +1,5 @@
+
+
 .new{
     background-image: linear-gradient(to top, #195eb7, #2276e3);
     padding-top: 10px;
@@ -175,7 +177,86 @@
     
 }
 
-.allprod{
-    align-items: center;
-    text-align: center;
+.footer{
+    border-top: 1px solid #e6e6e6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    min-height: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    top:50px;
+
+}
+
+.footer1{
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.footerPara{
+    font-weight: bold;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.insidePara{
+    padding-top: 10px;
+}
+.footerLink{
+    padding-right: 10px;
+    float: left;
+}
+
+.footerIcon{
+    font-size: 24px;
+    color: grey;
+    line-height: 1.2;
+}
+
+.footer2{
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 25px;
+    bottom: 50px;
+}
+
+.footer2Para{
+    font-weight: bold;
+    line-height: 1;
+    font-size: 14px;
+}
+.insideFooter2{
+    padding-top: 10px;
+    padding-left:90px;
+}
+
+.link1{
+    margin-right: 5px;
+    float: left;
+    background-position: -8px -5px;
+    width: 104px;
+    height: 34px;
+    background : url('/styleguide/images/Mobileapp_logo.png');
+}
+
+.link2{
+    margin-right: 5px;
+    float: left;
+    background-position: -120px -5px;
+    width: 105px;
+    height: 34px;
+    background: url('/styleguide/images/Mobileapp_logo.png');
+}
+
+.link3{
+
+    float: left;
+    background-position: -233px -5px;
+    width: 104px;
+    height: 34px;
+    background: url(/styleguide/images/Mobileapp_logo.png);
 }
