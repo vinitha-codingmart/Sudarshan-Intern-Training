@@ -27,16 +27,17 @@ ul {
   .navbar .subbar1 li.active .iconText{
     color: #f26722;
   }
-  a, a:visited{
+  .navbar .subbar1 a, a:visited{
     color: #4f9cff;
   }
   .navbar .subbar1 a:visited{
     color: #2C67B3;
 }
-.navbar .subbar1  a:hover{
+.navbar .subbar1 li a:hover{
     color: #f26722;
+    border-bottom: 2px solid orangered;
 }
- a:hover{
+.navbar .subbar1 a:hover{
     color: #f26722;
 }
 .navbar .subbar1 a{
@@ -155,7 +156,7 @@ ul {
 
   .navbar{
       width:100%;
-      height: 70px;
+      height: 80px;
       display: flex;
       position: relative;
     background: #fff;
@@ -518,7 +519,7 @@ dropdown {
   }
 
   .homeContainer1{
-    top:850px;
+    top:580px;
     border-radius: 5px;
     margin-top: -220px;
     padding-bottom: 20px;
@@ -534,7 +535,7 @@ dropdown {
     padding-bottom: 5px;
     line-height: 1;
     font-size: 15px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     border-bottom: 1 px solid;
   }
 
