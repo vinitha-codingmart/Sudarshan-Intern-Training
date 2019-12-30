@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="samp.css">
+<script>
+    var slideIndex = 0; 
+    showSlides(); // call showslide method 
+
+
+    function showSlides() 
+    { 
+        var i; 
+
+        // get the array of divs' with classname image-sliderfade 
+        var slides = document.getElementsByClassName("image-sliderfade");
+        
+        for(var i=0;i<slides.length;i++){
+            if(i===slideIndex){
+                slides[i].style.display="display";
+                console.log(i,"displayed")
+            }
+            else{
+                slides[i].style.display="none";
+            }
+
+        }
+        slideIndex= (slideIndex+1)%4
+//         debugger;
+        
+//         // get the array of divs' with classname dot 
+//         var dots = document.getElementsByClassName("dot"); 
+
+//         for (i = 0; i < slides.length; i++) { 
+//             // initially set the display to 
+//             // none for every image. 
+//             slides[i].style.display = "none"; 
+//         } 
+
+//         // increase by 1, Global variable 
+//         slideIndex++;
+
+//         // check for boundary 
+//         if (slideIndex > slides.length) 
+//         { 
+//             slideIndex = 1; 
+//         } 
+
+//         for (i = 0; i < dots.length; i++) { 
+//             dots[i].className = dots[i].className. 
+//                                 replace(" active", ""); 
+//         } 
+//         console.log(slideIndex);
+// console.log(slides[slideIndex - 1]);
+//         slides[slideIndex - 1].style.display = "block"; 
+//         dots[slideIndex - 1].className += " active"; 
+
+        // Change image every 2 seconds 
+        setTimeout(showSlides, 2000); 
+    } 
+
+</script>
+</head>
+
+<body>
+<!--HTML Code-->
+<!-- Slideshow Container Div -->
+<div class="container"> 
+
+    <!-- Full-width images with caption text -->
+    <div class="image-sliderfade fade">
+        <img src="flight.jpg" style="height:100px">
+        <div class="text">Image caption 1</div> 
+    </div> 
+    
+    <div class="image-sliderfade fade"> 
+        <img src="goLogo.png" style="height:100px"> 
+        <div class="text">Image caption 2</div> 
+    </div> 
+    
+    <div class="image-sliderfade fade"> 
+        <img src="flight.jpg" style="height:100px">     
+        <div class="text">Image caption 3</div> 
+    </div> 
+    
+    <div class="image-sliderfade fade"> 
+        <img src="goLogo.png" style="height:100px"> 
+        <div class="text">Image caption 4</div> 
+    </div> 
+    
+    </div> 
+    <br> 
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center"> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    </div> 
+        
+
+</body>
+</html>
