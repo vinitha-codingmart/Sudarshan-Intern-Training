@@ -1,0 +1,630 @@
+.showSlide {  
+  display: none  
+}  
+  .showSlide img {  
+      width: 100%;  
+  }  
+.slidercontainer {  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
+}  
+.left, .right2 {  
+  cursor: pointer;  
+  position: absolute;  
+  top: 50%;  
+  width: auto;  
+  padding: 16px;  
+  margin-top: -22px;  
+  color: white;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+  border-radius: 0 3px 3px 0;  
+}  
+.right2 {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+}  
+  .left:hover, .right2:hover {  
+      background-color: rgba(115, 115, 115, 0.8);  
+  }  
+  
+.active {  
+  background-color: #717171;  
+}  
+.core-slide{
+  display: block;
+}
+
+
+
+
+.showSlide1 {  
+  display: none  
+}  
+  .showSlide1 img {  
+      width: 100%;  
+  }  
+.slidercontainer1 {  
+  max-width: 1000px;  
+  position: relative;  
+  margin: auto;  
+}  
+.left1, .right1 {  
+  cursor: pointer;  
+  position: absolute;  
+  top: 50%;  
+  width: auto;  
+  padding: 16px;  
+  margin-top: -22px;  
+  color: white;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+  border-radius: 0 3px 3px 0;  
+}  
+.right1 {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+}  
+  .left1:hover, .right:hover {  
+      background-color: rgba(115, 115, 115, 0.8);  
+  }  
+
+  .core-slide1{
+    display: block;
+  }
+
+
+@media (max-width: 768px) {
+  .inside2S1 {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    background: white;
+  }
+  .inside2S3 {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    background: white;
+  }
+  .inside2S4 {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    background: white;
+  }
+  .inside2S5 {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    background: white;
+  }
+  .homeContainer1 {
+    top: 580px;
+    border-radius: 5px;
+    margin-top: -340px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+  .horizontalScroll {
+    margin: 0px auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wholeDiv {
+    margin: 0px auto;
+
+    min-height: 350px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .inside2S1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S3 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S4 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S5 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .homeContainer1 {
+    top: 680px;
+    border-radius: 5px;
+    margin-top: -340px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+  .horizontalScroll {
+    margin: 0px auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wholeDiv {
+    margin: 0px auto;
+
+    min-height: 350px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .inside2S1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S3 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S4 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S5 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .homeContainer1 {
+    top: 680px;
+    border-radius: 5px;
+    margin-top: -340px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+  .horizontalScroll {
+    margin: 0px auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wholeDiv {
+    margin: 0px auto;
+    min-height: 350px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .inside2S1 {
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S3 {
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S4 {
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .inside2S5 {
+    align-items: center;
+    display: flex;
+    background: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    min-height: 1px;
+  }
+  .homeContainer1 {
+    top: 720px;
+    border-radius: 5px;
+    margin-top: -340px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+  }
+  .horizontalScroll {
+    margin: 0px auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .wholeDiv {
+    margin: 0px auto;
+
+    min-height: 350px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  height: 100px;
+  width: 100%;
+  top: 1550px;
+  position: relative;
+}
+
+.footer1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  float: left;
+}
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  float: right;
+  justify-content: center;
+}
+
+.sub1 {
+  width: 40%;
+}
+.sub2 {
+  width: 60%;
+}
+
+.social .fa {
+  padding: 20px;
+  font-size: 20px;
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.social .fa:hover {
+  opacity: 0.7;
+}
+
+.social1 .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.social1 .fa:hover {
+  opacity: 0.7;
+}
+
+.social2 .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  height: 10px;
+}
+
+.social4 .fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  height: 10px;
+}
+
+.social2 .fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-youtube {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.Lfooter {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100%;
+  top: 1550px;
+  position: relative;
+}
+.Lfooter1 {
+  display: flex;
+}
+.Lfooter2 {
+  display: flex;
+  margin-left: 90px;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.smile {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin: 300px;
+  height: 50px;
+  width: 80px;
+  position: fixed;
+}
+
+.form-popup {
+  display: none;
+
+  position: absolute;
+  bottom: 500px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+.form-container .btn {
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  height: 50px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.ss .fa {
+  background: red;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.social3 .fas {
+  padding: 20px;
+  font-size: 25px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.open-button1 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  left: 28px;
+  width: 60px;
+  box-shadow: 0 2px 18px 5px rgba(0, 0, 0, 0.48);
+}
+
+/* The popup form - hidden by default */
+.form-popup1 {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  left: 15px;
+  border-radius: 3;
+  z-index: 9;
+  /* box-shadow: 0 2px 18px 5px rgba(0, 0, 0, 0.48); */
+  box-shadow: 0 6px 100px 0 rgba(0,0,0,.35)!important;
+  
+}
+
+/* Add styles to the form container */
+.form-container1 {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container1 input[type="text"],
+.form-container1 input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container1 input[type="text"]:focus,
+.form-container1 input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container1 .btn1 {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container1 .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container1 .btn1:hover,
+.open-button1:hover {
+  opacity: 1;
+}
+
+.payment-img {
+  width: 50px;
+}

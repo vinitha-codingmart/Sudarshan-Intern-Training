@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-storage.js"></script>
+
+    <script src="fold/js1/firebase.js"></script>
+    <link rel="stylesheet" href="fold/css1/samp.css" />
+    <script src="fold/js1/samp.js"></script>
+  </head>
+
+  <body>
+    <div class="form-modal">
+      <div class="form-toggle">
+        <button id="login-toggle" onclick="toggleLogin()">log in</button>
+        <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+      </div>
+
+      <div id="login-form">
+        <form>
+          <input type="text" placeholder="Enter email" id="email1" />
+          <input type="password" placeholder="Enter password" id="password1" />
+          <button type="button" class="btn login" onclick="signIn()">
+            login
+          </button>
+
+          <hr />
+        </form>
+      </div>
+
+      <div id="signup-form">
+        <form>
+          <input type="email" placeholder="Enter your email" id="email" />
+          <input type="password" placeholder="Create password" id="password" />
+          <button type="button" class="btn signup" onclick="signUp()">
+            create account
+          </button>
+
+          <hr />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

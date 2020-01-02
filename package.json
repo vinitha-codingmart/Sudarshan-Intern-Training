@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinitha-codingmart/Sudarshan-Intern-Training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinitha-codingmart/Sudarshan-Intern-Training/issues"
+  },
+  "homepage": "https://github.com/vinitha-codingmart/Sudarshan-Intern-Training#readme"
+}

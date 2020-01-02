@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.carosel-container{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.carosel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,96 @@
+#videosList {
+  max-width: 100px;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: 30px;
+}
+.video {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.video1 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video3 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video4 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video5 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video6 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video7 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video8 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.video9 {
+  background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg");
+  height: 80px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.btn2 {
+  height: 30px;
+  width: 80px;
+  font-size: 10px;
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn5 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
